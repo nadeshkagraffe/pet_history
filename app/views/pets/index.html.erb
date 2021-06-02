@@ -2,7 +2,7 @@
 
 <h1>Pets</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Name</th>
@@ -34,4 +34,5 @@
 
 <br>
 
-<%= link_to 'New Pet', new_pet_path %>
+<%= link_to 'New Pet', new_pet_path, class: "btn btn-danger text-light" %>
+<%= link_to 'History Pets list', pet_histories_path, class: "btn btn-danger text-light"%>
